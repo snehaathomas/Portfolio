@@ -16,10 +16,10 @@ export default function Hero() {
 
       <div className="z-10 flex flex-col items-center max-w-4xl w-full text-center">
         <motion.div
-           initial={{ opacity: 0, y: 20 }}
-           animate={{ opacity: 1, y: 0 }}
-           transition={{ duration: 0.8 }}
-           className="mb-8"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="mb-8"
         >
           <span className="text-[11px] md:text-xs uppercase tracking-[0.4em] font-bold text-sage-400 opacity-60">
             AI/DS Engineering Student
@@ -32,8 +32,16 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-7xl md:text-9xl font-serif leading-[0.85] text-sage-600 mb-12"
         >
-          Sneha Sara <br />
-          <span className="italic font-normal">Thomas</span>
+          <h1
+            className="text-6xl tracking-tight"
+            style={{
+              fontFamily: "Georgia, serif",
+              fontWeight: "bold",
+              fontStyle: "italic",
+            }}
+          ><span className="font-normal">
+              SNEHA SARA THOMAS</span>
+          </h1>
         </motion.h1>
 
         <motion.div
@@ -45,7 +53,7 @@ export default function Hero() {
           <div className="absolute inset-0 border border-sage-600/10 translate-x-4 translate-y-4 rounded-full transition-transform group-hover:translate-x-6 group-hover:translate-y-6" />
           <div className="relative w-full h-full overflow-hidden rounded-full border border-sage-600/10">
             <img
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop"
+              src="sneha.jpeg"
               alt="Sneha Sara Thomas"
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 ease-in-out scale-105"
               referrerPolicy="no-referrer"
@@ -91,7 +99,7 @@ export default function Hero() {
         transition={{ delay: 1.5, duration: 1 }}
         className="absolute bottom-12 flex flex-col items-center gap-4"
       >
-        <span className="text-[10px] uppercase tracking-[0.3em] font-medium text-sage-300 vertical-text rotate-180">Scroll</span>
+        <span className="text-[10px] uppercase tracking-[0.3em] font-medium text-sage-300 vertical-text rotate-180"></span>
         <div className="w-[1px] h-12 bg-gradient-to-b from-sage-200 to-transparent" />
       </motion.div>
     </section>

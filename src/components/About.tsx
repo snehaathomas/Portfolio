@@ -14,15 +14,15 @@ export default function About() {
 
           {/* Main Content */}
           <div className="md:col-span-6">
-            <motion.h2 
+            <motion.h2
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               className="text-4xl md:text-5xl font-serif italic leading-tight text-sage-600 mb-8"
             >
-              Solving complex problems with data-driven <span className="not-italic">intelligence</span>.
+              Solving complex problems with data-driven intelligence.
             </motion.h2>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}

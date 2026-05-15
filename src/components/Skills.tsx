@@ -6,7 +6,7 @@ const skills = [
   { name: 'Problem Solving', percentage: 78 },
   { name: 'C Programming', percentage: 75 },
   { name: 'Data Science', percentage: 60 },
-  { name: 'Machine Learning', percentage: 50 },
+  { name: 'Machine Learning', percentage: 65 },
   { name: 'Javascript', percentage: 50 },
 ];
 
@@ -50,11 +50,11 @@ function SkillItem({ skill, index }: { skill: typeof skills[0], index: number })
       </div>
       <div className="h-[1px] bg-sage-600/10 w-full overflow-hidden">
         <motion.div
-           initial={{ width: 0 }}
-           whileInView={{ width: `${skill.percentage}%` }}
-           viewport={{ once: true }}
-           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
-           className="h-full bg-sage-600"
+          initial={{ width: 0 }}
+          whileInView={{ width: `${skill.percentage}%` }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
+          className="h-full bg-sage-600"
         />
       </div>
     </motion.div>
