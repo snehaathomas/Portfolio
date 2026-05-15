@@ -53,7 +53,7 @@ export default function Hero() {
           <div className="absolute inset-0 border border-sage-600/10 translate-x-4 translate-y-4 rounded-full transition-transform group-hover:translate-x-6 group-hover:translate-y-6" />
           <div className="relative w-full h-full overflow-hidden rounded-full border border-sage-600/10">
             <img
-              src="sneha.jpeg"
+              src="/sneha.jpeg"
               alt="Sneha Sara Thomas"
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 ease-in-out scale-105"
               referrerPolicy="no-referrer"
